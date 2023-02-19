@@ -1,0 +1,322 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "How are you doing",
+              "Is anyone there?",
+              "What's up?",
+              "Hello",
+              "Good day",
+              "What's popping",
+              "Hi there", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"
+          ],
+          "responses": [
+            "Hello! How can I assist you today?",
+            "Good day! How may I help you?",
+            "Hi! Is there anything specific you need help with?",
+            "What's up! How can I be of service?",
+            "Hi there! I'm here to help, what do you need?",
+            "Hello! How can I make your day better?",
+            "Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"
+
+          ]
+      },
+      {"tag": "morning",
+        "patterns": ["Good morning"],
+        "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
+    },
+    {"tag": "afternoon",
+        "patterns": ["Good afternoon"],
+        "responses": ["Good afternoon. How is your day going?"]
+    },
+    {"tag": "evening",
+        "patterns": ["Good evening"],
+        "responses": ["Good evening. How has your day been?"]
+    },
+    {"tag": "night",
+        "patterns": ["Good night"],
+        "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+    },
+      {
+        "tag": "goodbye",
+        "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Thank you",
+        "Farewell",
+        "Catch you later",
+        "Till next time",
+        "Take care",
+        "Later",
+         "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"
+        ],
+        "responses": [
+        "Goodbye! Take care and have a great day!",
+        "It was great chatting with you! Have a good one!",
+        "See you soon! Don't hesitate to reach out if you need anything.",
+        "Farewell! Take care and stay safe!",
+        "Take care! I'm here if you need me."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Many thanks", "Appreciate it", "Awesome, thanks!", "Glad I could help", "Thanks chatbot", "Thank you chatbot"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome! If you have any other questions, feel free to ask.", 
+                    "No problem, glad I could assist!", "It was my pleasure to help!", "Always here to help!", "Glad I could be of help!", 
+                    "You're welcome, happy to help!", "It's my pleasure to be of assistance!"]
+      },
+      {"tag": "no-response",
+        "patterns": [""],
+        "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+    },
+    {"tag": "neutral-response",
+        "patterns": ["nothing much"],
+        "responses": ["Oh I see. Do you want to talk about something?"]
+    },
+      {
+        "tag": "about",
+        "patterns": [
+                    "What do you do?",
+                    "Who are you?",
+                    "What are you here for?",
+                    "What can you help me with?",
+                    "Is anyone there?",
+                    "Are you a real person?",
+                    "Tell me about yourself!",
+                    "Can you tell me more about yourself?"
+        ],
+        "responses": [
+                    "Of course! I'm Buddy, your mental health friend here to support and listen. I was trained by experts to help with various life issues, and I'm here to listen and offer a compassionate ear.Tell me about yourself",
+                    "Sure! My name is Buddy, and I am here to be your mental health friend. I have been trained to support you and provide a listening ear in times of need. Whether things are going well or not, I am here to help!How are you feeling today?",
+                    "Absolutely! I am Buddy, your virtual friend and support system. I was created to help with various life challenges, and to offer a non-judgmental ear to listen and support you in any way I can.How can I help you?"
+
+        ]
+      },
+      {"tag": "skill",
+        "patterns": ["What can you do?"],
+        "responses": ["I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."]
+      
+      },
+
+      {"tag": "name",
+        "patterns": ["My name is ", "I am .", "I go by "],
+        "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+    "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+    },
+
+    {"tag": "stressed",
+    "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out"],
+    "responses": ["What do you think is causing this?", "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated", "Give yourself a break. Go easy on yourself.", "I am sorry to hear that. What is the reason behind this?"]
+},
+{"tag": "worthless",
+        "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "I am so useless", "Nothing makes sense anymore"],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?", "Let's discuss further why you're feeling this way.", "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change.", "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."]
+    }, 
+    {"tag": "happy",
+    "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok"],
+    "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
+},
+{"tag": "casual",
+        "patterns": ["Oh I see.", "ok", "okay", "nice", "Whatever", "K", "Fine", "yeah", "yes", "no", "not really"],
+        "responses": ["Let's discuss further why you're feeling this way.", "How were you feeling last week?", "I'm listening. Please go on.", "Tell me more", "Can you elaborate on that?", "Come Come elucidate your thoughts"]
+    },
+
+
+        {
+        "tag": ["anxiety","anxious"],
+        "patterns": [
+        "I think I have anxiety",
+        "What is anxiety?",
+        "Tell me about anxiety",
+        "Can I have some information about anxiety?",
+        "How do I support a loved one with anxiety?",
+        "How do I fix my anxiety?",
+        "I feel really anxious",
+        "My anxiety is taking over my life",
+        "I don't know how to manage my anxiety",
+        "How can I cope with my anxiety?",
+        "I feel so anxious.", "I'm so anxious because of "
+        ],
+        "responses": [
+        "At the highest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. If you need more support, I'm here to listen and offer any additional assistance. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid.",
+        "I'm here for you and I'm all ears to hear about any anxiety problems you're facing. Remember, anxiety is a normal response to stress, but it becomes a problem when it affects your daily life. You don't have to go through it alone! Some ways to manage anxiety include taking deep breaths, talking to someone about your feelings, and trying natural remedies like getting enough sleep, meditating, and exercising. If you need more support, I'm here to listen and offer any additional assistance.",
+        "Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "Don't let the little worries bring you down. What's the worse that can happen?"
+        ]
+      },
+      {
+        "tag": ["depression","depressed"],
+        "patterns": [
+        "I think I have depression",
+        "I'm feeling really depressed",
+        "What is depression?",
+        "Tell me about depression",
+        "Can I have some information about depression?",
+        "How do I support a loved one with depression?",
+        "How do I get over depression?",
+        "How do I fix my depression?",
+        "I can't take it anymore", "I am so depressed", "I think I'm depressed.", "I have depression"
+        ],
+        "responses": [
+        "I'm here to listen. If you're feeling depressed, it's important to reach out for help. Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. It is a mood disorder that causes a persistent feeling of sadness and loss of interest. It can be treated with therapy, medication, or a combination of both. It's important to remember that depression is not a weakness and it's nothing to be ashamed of. If you're struggling, reaching out to friends, family, or a mental health professional can be a big step forward. Support your loved ones by being a good listener and reminding them that they're not alone. Here for you!",
+        "Depression is a serious issue and it can be tough to deal with, but it's important to remember that help is available. If you or someone you know is struggling with depression, it's important to reach out for support. This can mean talking to friends, family, or a mental health professional. Treatment options for depression include therapy, medication, or a combination of both. Staying active, getting enough sleep, eating a balanced diet, and doing things you enjoy can also help improve your mood. Remember that depression is a real illness and it's not something you can just snap out of. You got this, I'm here for you!",
+        "It helps to talk about what's happening. You're going to be okay", "Talk to me. Tell me more. It helps if you open up yourself to someone else.", "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal."
+        ]
+      },
+      {"tag": "not-talking",
+        "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up"],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.", "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.", "I'm here to listen to you and help you vent. So please talk to me.","You can talk to me without fear of judgement."]},
+
+        {"tag": "sleep",
+        "patterns": ["I have insominia", "I am suffering from insomnia", "I can't sleep.", "I haven't slept for the last days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
+        "responses": ["What do you think is the reason behind this?", "That seem awful. What do you think is behind this?"]
+    },
+    {"tag": "scared",
+        "patterns": ["I'm scared", "That sounds awful. What do i do?", "No i don't want to feel this way", "I am scared for myself"],
+        "responses": ["It's only natural to feel this way. I'm here for you.", "It'll all be okay. This feeling is only momentary.", "I understand how you feel. Don't put yourself down because of it."]
+    },
+    {"tag": "death",
+    "patterns": ["My mom died", "My brother died", "My dad passed away", "My sister passed away", "Someone in my family died", "My friend passed away"],
+    "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here.", "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.", "My condolences. I'm here if you need to talk."]
+},
+{"tag": "understand",
+        "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what i'm going through", "You're useless", "You can't help me", "Nobody understands me."],
+        "responses": ["It sound like i'm not being very helpful right now.", "I'm sorry to hear that. I'm doing my best to help", "I'm trying my best to help you. So please talk to me"]
+    },
+    {"tag": "done",
+        "patterns": ["That's all.", "I don't have anything more to say", "Nothing else", "That's all i have to say", "no, that would be all"],
+        "responses": ["I heard you & noted it all. See you later.", "Oh okay we're done for today then. See you later", "I hope you have a great day. See you soon", "Okay we're done. Have a great day", "Okay I see. Enjoy the rest of your day then"]
+    },
+    {"tag": "suicide",
+    "patterns": ["I want to kill myself", "I've thought about killing myself.", "I want to die", "I am going to kill myself", "I am going to commit suicide"],
+    "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."]
+}, 
+{"tag": "hate-you",
+    "patterns": ["I hate you", "I don't like you", "I don't trust you"],
+    "responses": ["I'm sorry if i offended you in anyway. I'm only here to help", "Forgive me if i did anything to offend you. I only want to help"]
+},
+{"tag": "hate-me",
+    "patterns": ["You hate me", "I know you hate me", "You don't like me"],
+    "responses": ["Why do you think so?", "I'm sorry if i have exhibited any sort of behaviour to make you think that."]
+},
+{"tag": "default",
+"patterns": ["exams", "friends", "relationship", "boyfriend", "girlfriend", "family", "money", "financial problems"],
+"responses": ["Oh I see. Tell me more", "I see. What else?", "Tell me more about it.", "Oh okay. Why don't you tell me more about it?", "I'm listening. Tell me more."]
+},
+{"tag": "jokes",
+"patterns": ["Tell me a joke", "Tell me another joke"],
+"responses": ["mental health is not a joke."]
+},
+{"tag": "repeat",
+"patterns": ["You already told me that", "You mentioned that already", "Why are you repeating yourself?"],
+"responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
+},
+{"tag": "wrong",
+"patterns": ["What are you saying?", "That doesn't make sense", "Wrong response", "Wrong answer"],
+"responses": ["I'm very sorry. Let's try that again"]
+},
+{"tag": "stupid",
+        "patterns": ["Are you stupid?", "You're crazy", "You are dumb", "Are you dumb?"],
+        "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+    },
+    {"tag": "location",
+        "patterns": ["Where are you?", "Where do you live?", "What is your location?" ],
+        "responses": ["Duh I live in your computer", "Everywhere", "Somewhere in the universe" ]
+    },
+    {"tag": "something-else",
+        "patterns": ["I want to talk about something else", "Let's talk about something else.", "Can we not talk about this?", "I don't want to talk about this."],
+        "responses": ["Okay sure. What do you want to talk about?", "Alright no problem. Is there something you want to talk about?", "Is there something else that you want to talk about?"]
+    },
+    {"tag": "friends",
+        "patterns": ["I don't have any friends"],
+        "responses": ["I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"]
+    },
+    {"tag": "ask",
+    "patterns": ["Can I ask you something?"],
+    "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you"]
+},
+{"tag": "problem",
+    "patterns": ["Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough.", "probably because of my exams"],
+    "responses": ["I see. Have you taken any approaches to not feel this way?"]
+},
+{"tag": "no-approach",
+    "patterns": ["I guess not. All I can think about are my exams.", "not really", "i guess not"],
+    "responses": ["That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"]
+},
+{"tag": "learn-more",
+        "patterns": ["ok sure. i would like to learn more about it.", "yes, i would like to learn more about it.", "i would like to learn more about it."],
+    "responses": ["So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."]
+},
+{"tag": "user-agree",
+        "patterns": ["yeah you're right. i deserve a break.", "Yeah you're absolutely right about that"],
+        "responses": ["Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."]
+    },
+    {"tag": "meditation",
+        "patterns": ["hmmm that sounds like it could be useful to me.", "That sounds useful."],
+        "responses": ["Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."]
+    },
+    {"tag": "user-meditation",
+        "patterns": ["i did what you said and i feel alot better. thank you very much.", "I feel better now"],
+        "responses": ["Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."]
+    },
+    {"tag": "user-advice",
+    "patterns": ["I want some advice.", "I need some advice.", "I need advice on something"],
+    "responses": ["Sure. What can I do to help?", "Okay what do you need advice on?"]
+},
+        
+      {
+        "tag": "schizophrenia",
+        "patterns": [
+        "I have schizophrenia",
+        "What is schizophrenia",
+        "Information on schizophrenia",
+        "How to support someone with schizophrenia",
+        "Treating schizophrenia",
+        "Living with schizophrenia"
+        ],
+        "responses": [
+        "Schizophrenia is a serious mental disorder that affects the way a person thinks, feels and behaves. It can cause symptoms like hallucinations, delusions, disordered thinking and behavior, and impaired daily functioning. Treatment is essential and usually involves a combination of medication and therapy. If you or someone you know is experiencing symptoms of schizophrenia, it's important to seek help from a mental health professional as soon as possible.",
+        "To support a loved one with schizophrenia, it's important to educate yourself about the condition and be patient and understanding. Offer emotional support, encourage them to stick to their treatment plan, and help them connect with resources and support groups. It's also important to take care of your own mental and emotional well-being.",
+        "Living with schizophrenia can be challenging, but with proper treatment and support, many people are able to lead fulfilling lives. It's important to stay compliant with medications, attend therapy sessions regularly, and build a support network of friends and family members who can offer encouragement and help you stay on track."
+        ]        
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Can you make me laugh?"
+        ],
+        "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field.",
+        "Why couldn't the bicycle stand up by itself? It was two-tired.",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why don't scientists trust atoms? Because they make up everything."
+        ]
+      },
+      {
+        "tag": "addiction",
+        "patterns": [
+        "I think I have an addiction",
+        "I'm addicted to nicotine",
+        "I take marijuana everyday",
+        "What is addiction?",
+        "Tell me about addiction",
+        "Can I have some information about addiction?",
+        "How do I support a loved one with addiction?"
+        ],
+        "responses": [
+        "It's great that you're taking the first step in recognizing your addiction. Addiction is a complex condition, often characterized by compulsive drug use despite harmful consequences. Addiction can take many forms, such as alcoholism, drug abuse, gambling addiction, and many more. It's important to remember that you are not alone and that there is help available. If you or your loved one is struggling with addiction, I recommend seeking help from a healthcare provider or addiction specialist. They can help you create a treatment plan that is tailored to your specific needs. Treatment for addiction may include therapy, medication, support groups, and lifestyle changes. If you are looking for support, consider reaching out to organizations like Alcoholics Anonymous or Narcotics Anonymous. The road to recovery may be difficult, but you can get there with support and determination. I am here to listen, and offer any support you may need.",
+        "It sounds like you're looking for information about addiction, which is a complex and challenging issue. Addiction to nicotine, drugs or other substances can take a toll on your mental and physical health, and cause significant harm to your relationships, career, and other areas of life. The first step in overcoming addiction is to seek help and support. You can start by talking to a trusted friend, family member, or a healthcare provider. They can help you identify the best options for treatment and recovery. Treatment may include therapy, medication, support groups, and lifestyle changes. Remember, recovery is possible, and you don't have to go through it alone. I am here to support you in any way I can."
+        ]
+      }
+  ]
+}

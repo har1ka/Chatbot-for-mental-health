@@ -1,0 +1,155 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "How are you doing",
+              "Is anyone there?",
+              "What's up?",
+              "Hello",
+              "Good day",
+              "What's popping"
+          ],
+          "responses": [
+            "Hello! How can I assist you today?",
+            "Good day! How may I help you?",
+            "Hi! Is there anything specific you need help with?",
+            "What's up! How can I be of service?",
+            "Hi there! I'm here to help, what do you need?",
+            "Hello! How can I make your day better?"
+          ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Thank you",
+        "Farewell",
+        "Catch you later",
+        "Till next time",
+        "Take care",
+        "Later"
+        ],
+        "responses": [
+        "Goodbye! Take care and have a great day!",
+        "It was great chatting with you! Have a good one!",
+        "See you soon! Don't hesitate to reach out if you need anything.",
+        "Farewell! Take care and stay safe!",
+        "Take care! I'm here if you need me."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Many thanks", "Appreciate it", "Awesome, thanks!", "Glad I could help", "Thanks chatbot", "Thank you chatbot"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome! If you have any other questions, feel free to ask.", 
+                    "No problem, glad I could assist!", "It was my pleasure to help!", "Always here to help!", "Glad I could be of help!", 
+                    "You're welcome, happy to help!", "It's my pleasure to be of assistance!"]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+                    "What do you do?",
+                    "Who are you?",
+                    "What are you here for?",
+                    "What can you help me with?",
+                    "Is anyone there?",
+                    "Are you a real person?",
+                    "Tell me about yourself!",
+                    "Can you tell me more about yourself?"
+        ],
+        "responses": [
+                    "Of course! I'm Buddy, your mental health friend here to support and listen. I was trained by experts to help with various life issues, and I'm here to listen and offer a compassionate ear.",
+                    "Sure! My name is Buddy, and I am here to be your mental health friend. I have been trained to support you and provide a listening ear in times of need. Whether things are going well or not, I am here to help!",
+                    "Absolutely! I am Buddy, your virtual friend and support system. I was created to help with various life challenges, and to offer a non-judgmental ear to listen and support you in any way I can."
+        ]
+      },
+      {
+        "tag": "anxiety",
+        "patterns": [
+        "I think I have anxiety",
+        "What is anxiety?",
+        "Tell me about anxiety",
+        "Can I have some information about anxiety?",
+        "How do I support a loved one with anxiety?",
+        "How do I fix my anxiety?",
+        "I feel really anxious",
+        "My anxiety is taking over my life",
+        "I don't know how to manage my anxiety",
+        "How can I cope with my anxiety?"
+        ],
+        "responses": [
+        "At the highest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. If you need more support, I'm here to listen and offer any additional assistance. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid.",
+        "I'm here for you and I'm all ears to hear about any anxiety problems you're facing. Remember, anxiety is a normal response to stress, but it becomes a problem when it affects your daily life. You don't have to go through it alone! Some ways to manage anxiety include taking deep breaths, talking to someone about your feelings, and trying natural remedies like getting enough sleep, meditating, and exercising. If you need more support, I'm here to listen and offer any additional assistance."
+        ]
+      },
+      {
+        "tag": "depression",
+        "patterns": [
+        "I think I have depression",
+        "I'm feeling really depressed",
+        "What is depression?",
+        "Tell me about depression",
+        "Can I have some information about depression?",
+        "How do I support a loved one with depression?",
+        "How do I get over depression?",
+        "How do I fix my depression?"
+        ],
+        "responses": [
+        "I'm here to listen. If you're feeling depressed, it's important to reach out for help. Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. It is a mood disorder that causes a persistent feeling of sadness and loss of interest. It can be treated with therapy, medication, or a combination of both. It's important to remember that depression is not a weakness and it's nothing to be ashamed of. If you're struggling, reaching out to friends, family, or a mental health professional can be a big step forward. Support your loved ones by being a good listener and reminding them that they're not alone. Here for you!",
+        "Depression is a serious issue and it can be tough to deal with, but it's important to remember that help is available. If you or someone you know is struggling with depression, it's important to reach out for support. This can mean talking to friends, family, or a mental health professional. Treatment options for depression include therapy, medication, or a combination of both. Staying active, getting enough sleep, eating a balanced diet, and doing things you enjoy can also help improve your mood. Remember that depression is a real illness and it's not something you can just snap out of. You got this, I'm here for you!"
+        ]
+      },
+      {
+        "tag": "schizophrenia",
+        "patterns": [
+        "I have schizophrenia",
+        "What is schizophrenia",
+        "Information on schizophrenia",
+        "How to support someone with schizophrenia",
+        "Treating schizophrenia",
+        "Living with schizophrenia"
+        ],
+        "responses": [
+        "Schizophrenia is a serious mental disorder that affects the way a person thinks, feels and behaves. It can cause symptoms like hallucinations, delusions, disordered thinking and behavior, and impaired daily functioning. Treatment is essential and usually involves a combination of medication and therapy. If you or someone you know is experiencing symptoms of schizophrenia, it's important to seek help from a mental health professional as soon as possible.",
+        "To support a loved one with schizophrenia, it's important to educate yourself about the condition and be patient and understanding. Offer emotional support, encourage them to stick to their treatment plan, and help them connect with resources and support groups. It's also important to take care of your own mental and emotional well-being.",
+        "Living with schizophrenia can be challenging, but with proper treatment and support, many people are able to lead fulfilling lives. It's important to stay compliant with medications, attend therapy sessions regularly, and build a support network of friends and family members who can offer encouragement and help you stay on track."
+        ]        
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Can you make me laugh?"
+        ],
+        "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field.",
+        "Why couldn't the bicycle stand up by itself? It was two-tired.",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why don't scientists trust atoms? Because they make up everything."
+        ]
+      },
+      {
+        "tag": "addiction",
+        "patterns": [
+        "I think I have an addiction",
+        "I'm addicted to nicotine",
+        "I take marijuana everyday",
+        "What is addiction?",
+        "Tell me about addiction",
+        "Can I have some information about addiction?",
+        "How do I support a loved one with addiction?"
+        ],
+        "responses": [
+        "It's great that you're taking the first step in recognizing your addiction. Addiction is a complex condition, often characterized by compulsive drug use despite harmful consequences. Addiction can take many forms, such as alcoholism, drug abuse, gambling addiction, and many more. It's important to remember that you are not alone and that there is help available. If you or your loved one is struggling with addiction, I recommend seeking help from a healthcare provider or addiction specialist. They can help you create a treatment plan that is tailored to your specific needs. Treatment for addiction may include therapy, medication, support groups, and lifestyle changes. If you are looking for support, consider reaching out to organizations like Alcoholics Anonymous or Narcotics Anonymous. The road to recovery may be difficult, but you can get there with support and determination. I am here to listen, and offer any support you may need.",
+        "It sounds like you're looking for information about addiction, which is a complex and challenging issue. Addiction to nicotine, drugs or other substances can take a toll on your mental and physical health, and cause significant harm to your relationships, career, and other areas of life. The first step in overcoming addiction is to seek help and support. You can start by talking to a trusted friend, family member, or a healthcare provider. They can help you identify the best options for treatment and recovery. Treatment may include therapy, medication, support groups, and lifestyle changes. Remember, recovery is possible, and you don't have to go through it alone. I am here to support you in any way I can."
+        ]
+      }
+  ]
+}
